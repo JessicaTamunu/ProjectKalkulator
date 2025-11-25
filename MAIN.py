@@ -18,4 +18,7 @@ b = float(input("Masukkan angka kedua: "))
         print("Hasil:", kali(a, b))
  elif pilihan == "4":
         print("Hasil:", bagi(a, b))
-     
+ else:
+        print("Pilihan tidak valid.")
+
+main()
