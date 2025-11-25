@@ -20,3 +20,5 @@ b = float(input("Masukkan angka kedua: "))
         print("Hasil:", bagi(a, b))
  else:
         print("Pilihan tidak valid.")
+
+main()
