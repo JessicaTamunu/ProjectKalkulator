@@ -12,3 +12,5 @@ b = float(input("Masukkan angka kedua: "))
 
 if pilihan == "1":
         print("Hasil:", tambah(a, b))
+elif pilihan == "2":
+        print("Hasil:", kurang(a, b))
