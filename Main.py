@@ -14,3 +14,5 @@ if pilihan == "1":
         print("Hasil:", tambah(a, b))
 elif pilihan == "2":
         print("Hasil:", kurang(a, b))
+elif pilihan == "3":
+        print("Hasil:", kali(a, b))
