@@ -10,12 +10,13 @@ pilihan = input("Pilih operasi (1-4): ")
 a = float(input("Masukkan angka pertama: "))
 b = float(input("Masukkan angka kedua: "))
 
-if pilihan == "1":
+ if pilihan == "1":
         print("Hasil:", tambah(a, b))
-elif pilihan == "2":
+ elif pilihan == "2":
         print("Hasil:", kurang(a, b))
-elif pilihan == "3":
+ elif pilihan == "3":
         print("Hasil:", kali(a, b))
  elif pilihan == "4":
         print("Hasil:", bagi(a, b))
-   
+ else:
+        print("Pilihan tidak valid.")
