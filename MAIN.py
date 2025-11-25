@@ -9,3 +9,6 @@ pilihan = input("Pilih operasi (1-4): ")
 
 a = float(input("Masukkan angka pertama: "))
 b = float(input("Masukkan angka kedua: "))
+
+  if pilihan == "1":
+        print("Hasil:", tambah(a, b))
