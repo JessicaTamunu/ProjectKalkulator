@@ -16,3 +16,6 @@ b = float(input("Masukkan angka kedua: "))
         print("Hasil:", kurang(a, b))
   elif pilihan == "3":
         print("Hasil:", kali(a, b))
+ elif pilihan == "4":
+        print("Hasil:", bagi(a, b))
+     
